@@ -1,0 +1,19 @@
+{
+  "name": "operst",
+  "version": "0.0.0",
+  "description": "Operst is a digital marketing agency that delivers comprehensive advertising solutions. Our expert services will maximize your ROAS to get more leads and grow your business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/operstagency/operst.git"
+  },
+  "author": "Operst, LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/operstagency/operst/issues"
+  },
+  "homepage": "https://github.com/operstagency/operst#readme"
+}
