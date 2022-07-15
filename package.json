@@ -1,19 +1,35 @@
 {
   "name": "operst",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Operst is a digital marketing agency that delivers comprehensive advertising solutions. Our expert services will maximize your ROAS to get more leads and grow your business",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run prepare && ./node_modules/mocha/bin/mocha test/ --recursive --timeout=10000",
+    "prepare": "node -e 'require(`prepare-package`)'"
+  },
+  "engines": {
+    "node": ">=6.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/operstagency/operst.git"
+    "url": "git+https://github.com/operst/operst"
   },
-  "author": "Operst, LLC",
-  "license": "ISC",
+  "keywords": [
+    "operst",
+    "digital marketing agency",
+    "social media marketing agency",
+    "seo agency",
+    "nodejs",
+    "front end"
+  ],
+  "author": "ITW Creative Works",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/operstagency/operst/issues"
+    "url": "https://github.com/operst/operst/issues"
   },
-  "homepage": "https://operstagency.com"
+  "homepage": "https://operstagency.com",
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "prepare-package": "^0.0.12"
+  }
 }
