@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://cdn.itwcreativeworks.com/assets/operst/images/logo/operst-brandmark-black-x.svg">
+  <a href="https://operstagency.com">
     <img src="https://cdn.itwcreativeworks.com/assets/operst/images/logo/operst-brandmark-black-x.svg" width="100px">
   </a>
 </p>
@@ -24,17 +24,17 @@
   <strong>operst</strong> is the official npm module of <a href="https://operstagency.com">Operst</a>, a digital marketing agency that delivers comprehensive advertising solutions. Our expert services will maximize your ROAS to get more leads and grow your business.
 </p>
 
-## Operst Works in Node AND browser environments
+## 🌐 Operst Works in Node AND browser environments
 Yes, this module works in both Node and browser environments, including compatibility with [Webpack](https://www.npmjs.com/package/webpack) and [Browserify](https://www.npmjs.com/package/browserify)!
 
-## Features
+## 🦄 Features
 * Getting proxy lists
 
-### Getting an API key
-You can use so much of `operst` for free, but if you want to do some advanced stuff, you'll need an API key. You can get one by [signing up for a Operst account](https://operstagency.com/authentication/signup).
+### 🔑 Getting an API key
+You can use so much of `operst` for free, but if you want to do some advanced stuff, you'll need an API key. You can get one by [signing up for a Operst account](https://operstagency.com/signup).
 
-## Install Operst
-### Install via npm
+## 📦 Install Operst
+### Option 1: Install via npm
 Install with npm if you plan to use `operst` in a Node project or in the browser.
 ```shell
 npm install operst
@@ -48,7 +48,7 @@ const operst = new (require('operst'))({
 });
 ```
 
-### Install via CDN
+### Option 2: Install via CDN
 Install with CDN if you plan to use Operst only in a browser environment.
 ```html
 <script src="https://cdn.jsdelivr.net/npm/operst@latest/dist/index.min.js"></script>
@@ -60,29 +60,29 @@ Install with CDN if you plan to use Operst only in a browser environment.
 </script>
 ```
 
-### Use without installation
+### Option 3: Use without installation
 You can use `operst` in a variety of ways that require no installation, such as `curl` in terminal/shell. See the **Use without installation** section below.
 
-## Using Operst
+## ⚡️ Using Operst
 After you have followed the install step, you can start using `operst` to maximize your ROAS to get more leads and grow your business
 
 For a more in-depth documentation of this library and the Operst service, please visit the official Operst website.
 
-## Use without installation
+## 🔧 Use without installation
 ### Use Operst with `curl`
 ```shell
 # Standard
 curl -X POST https://api.operstagency.com
 ```
 
-## What Can Operst do?
+## 📝 What Can Operst do?
 Operst is a [digital marketing agency](https://operstagency.com) that delivers comprehensive advertising solutions. Our expert services will maximize your ROAS to get more leads and grow your business
 
-## Final Words
+## 🗨️ Final Words
 If you are still having difficulty, we would love for you to post
 a question to [the Operst issues page](https://github.com/operst/operst/issues). It is much easier to answer questions that include your code and relevant files! So if you can provide them, we'd be extremely grateful (and more likely to help you find the answer!)
 
-## Projects Using this Library
+## 📚 Projects Using this Library
 * coming soon!
 
 Ask us to have your project listed! :)
